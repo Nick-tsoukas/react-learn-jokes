@@ -1,0 +1,21 @@
+.JokeList {
+    min-height: 50%;
+    min-width: 80%;
+    display: flex;
+}
+
+.JokeList_sidebar {
+    flex-grow : 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.JokeList_jokes {
+    flex-grow: 4;
+}
+
+.JokeList_button {
+    padding: 1em 2em;
+    background: white;
+}
